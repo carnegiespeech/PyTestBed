@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message transactionID="Question_4077-02-03-28-126">
+    <validate requester="CSDev" requesterID="Office" userID="leo" apiVersion="SendFileModule_Python_v1.0" requesterInfo="session1" requesterSeqNum="123456" dateTimeStamp="2015-10-15T13:53:00.410-05:00" hashToken="02007b04f6852d9b2b1d6b4dc854760f" serverID="Speechservices_stressTest:8084" serverType="localhost:11001" />
+    <referenceID value="061/CSDev-Office/leo/2015-10-15/session1-17-52-50-377..ogg" />
+    <AAResult version="3.2.109" AAReqID="0000000000000001441764366407">
+        <analysis analysisID="0000000000000001441764366407" analysisType="ReadingFluency" pinpoint="TRUE">
+            <SRHyp />
+            <score>0.0</score>
+            <readingSummary>
+                <targetText>a baby</targetText>
+                <markedText>
+                    <font style="background-color:red">a baby</font>
+                </markedText>
+                <speakingTime>5410</speakingTime>
+                <nRef>2</nRef>
+                <nHyp>1</nHyp>
+                <nCorr>0</nCorr>
+                <nErr>2</nErr>
+                <nSub>1</nSub>
+                <nDel>1</nDel>
+                <nIns>0</nIns>
+            </readingSummary>
+            <alignmentDetails>
+                <alignEntry alignType="SUB">
+                    <target>a</target>
+                    <wordSeg start_msec="181" end_msec="5590">
+                        <word>&lt;JUNK&gt;</word>
+                    </wordSeg>
+                </alignEntry>
+                <alignEntry alignType="DEL">
+                    <target>baby</target>
+                </alignEntry>
+            </alignmentDetails>
+        </analysis>
+        <audioQuality id="(null)" status="0" vol="0.59">
+            <comment bgpow="32" />
+        </audioQuality>
+    </AAResult>
+</message>
+

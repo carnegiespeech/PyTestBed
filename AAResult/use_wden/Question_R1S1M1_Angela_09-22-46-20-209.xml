@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message transactionID="Question_R1S1M1_Angela_09-22-46-20-209">
+    <validate requester="CSDev" requesterID="Office" userID="leo" apiVersion="SendFileModule_Python_v1.0" requesterInfo="session1" requesterSeqNum="123456" dateTimeStamp="2015-10-15T13:52:57.744-05:00" hashToken="4f15d54287805e1570af485f69e69dcc" serverID="Speechservices_stressTest:8084" serverType="localhost:11001" />
+    <referenceID value="FA2/CSDev-Office/leo/2015-10-15/session1-17-52-47-741..ogg" />
+    <AAResult version="3.2.109" AAReqID="0000000000000001441752539068">
+        <analysis analysisID="0000000000000001441752539068" analysisType="ReadingFluency" pinpoint="TRUE">
+            <SRHyp />
+            <score>0.0</score>
+            <readingSummary>
+                <targetText>Hello, I'm .</targetText>
+                <markedText>
+                    <font style="background-color:red">Hello, I'm</font>
+                    .
+                </markedText>
+                <speakingTime>2360</speakingTime>
+                <nRef>2</nRef>
+                <nHyp>1</nHyp>
+                <nCorr>0</nCorr>
+                <nErr>2</nErr>
+                <nSub>1</nSub>
+                <nDel>1</nDel>
+                <nIns>0</nIns>
+            </readingSummary>
+            <alignmentDetails>
+                <alignEntry alignType="SUB">
+                    <target>Hello</target>
+                    <wordSeg start_msec="121" end_msec="2480">
+                        <word>&lt;JUNK&gt;</word>
+                    </wordSeg>
+                </alignEntry>
+                <alignEntry alignType="DEL">
+                    <target>I'm</target>
+                </alignEntry>
+            </alignmentDetails>
+        </analysis>
+        <audioQuality id="(null)" status="0" vol="0.48">
+            <comment bgpow="34" />
+        </audioQuality>
+    </AAResult>
+</message>
+

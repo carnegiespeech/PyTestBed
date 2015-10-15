@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message transactionID="Question_R1S1M1_Angela_10-00-16-44-897">
+    <validate requester="CSDev" requesterID="Office" userID="leo" apiVersion="SendFileModule_Python_v1.0" requesterInfo="session1" requesterSeqNum="123456" dateTimeStamp="2015-10-15T13:52:57.148-05:00" hashToken="ffc4d6da1603a68d3057ccfbc47b5868" serverID="Speechservices_stressTest:8084" serverType="localhost:11001" />
+    <referenceID value="D50/CSDev-Office/leo/2015-10-15/session1-17-52-47-130..ogg" />
+    <AAResult version="3.2.109" AAReqID="0000000000000001441757963175">
+        <analysis analysisID="0000000000000001441757963175" analysisType="ReadingFluency" pinpoint="TRUE">
+            <SRHyp />
+            <score>0.0</score>
+            <readingSummary>
+                <targetText>Nice to meet you too.</targetText>
+                <markedText>
+                    <font style="background-color:red">Nice to meet you too</font>
+                    .
+                </markedText>
+                <speakingTime>1970</speakingTime>
+                <nRef>5</nRef>
+                <nHyp>1</nHyp>
+                <nCorr>0</nCorr>
+                <nErr>5</nErr>
+                <nSub>1</nSub>
+                <nDel>4</nDel>
+                <nIns>0</nIns>
+            </readingSummary>
+            <alignmentDetails>
+                <alignEntry alignType="SUB">
+                    <target>Nice</target>
+                    <wordSeg start_msec="151" end_msec="2120">
+                        <word>&lt;JUNK&gt;</word>
+                    </wordSeg>
+                </alignEntry>
+                <alignEntry alignType="DEL">
+                    <target>to</target>
+                </alignEntry>
+                <alignEntry alignType="DEL">
+                    <target>meet</target>
+                </alignEntry>
+                <alignEntry alignType="DEL">
+                    <target>you</target>
+                </alignEntry>
+                <alignEntry alignType="DEL">
+                    <target>too</target>
+                </alignEntry>
+            </alignmentDetails>
+        </analysis>
+        <audioQuality id="(null)" status="0" vol="0.21">
+            <comment bgpow="37" />
+        </audioQuality>
+    </AAResult>
+</message>
+

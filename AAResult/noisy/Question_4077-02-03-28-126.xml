@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactionLog>
+    <aaRequest>
+        <message serviceType="AARequest" transactionID="0000000000000001441764366407">
+            <validate apiVersion="SendFileClass_CS_v1.0.3" requester="LearnDirect" requesterID="Tok888yo_12" userID="User_JoséPauloT31" requesterInfo="Question_4077" requesterSeqNum="79951307" dateTimeStamp="2015-09-08T19:06:06.408-07:00" hashToken="6b9df840cdde359b2b4cd5c332649024" />
+            <audio type="ogg" save="True" />
+            <AARequest AAReqID="0000000000000001441764366407">
+                <analysis analysisID="0000000000000001441764366407" analysisType="ReadingFluency" pinpoint="TRUE">
+                    <text>a baby</text>
+                </analysis>
+            </AARequest>
+        </message>
+    </aaRequest>
+    <aaResult>
+        <message transactionID="0000000000000001441764366407">
+            <validate apiVersion="SendFileClass_CS_v1.0.3" requester="LearnDirect" requesterID="Tok888yo_12" userID="User_JoséPauloT31" requesterInfo="Question_4077" requesterSeqNum="79951307" dateTimeStamp="2015-09-08T19:06:06.408-07:00" hashToken="6b9df840cdde359b2b4cd5c332649024" serverID="Speechservices_stressTest:8084" serverType="localhost:11001" />
+            <referenceID value="A50/LearnDirect-Tok888yo_12/User_Jos%C3%A9PauloT31/2015-09-09/Question_4077-02-03-28-126.ogg" />
+            <AAResult version="3.2.120" AAReqID="0000000000000001441764366407">
+                <analysis analysisID="0000000000000001441764366407" analysisType="ReadingFluency" pinpoint="TRUE">
+                    <SRHyp />
+                    <score>0.0</score>
+                    <readingSummary>
+                        <targetText>a baby</targetText>
+                        <markedText>
+                            <font style="background-color:red">a baby</font>
+                        </markedText>
+                        <speakingTime>5430</speakingTime>
+                        <nRef>2</nRef>
+                        <nHyp>1</nHyp>
+                        <nCorr>0</nCorr>
+                        <nErr>2</nErr>
+                        <nSub>1</nSub>
+                        <nDel>1</nDel>
+                        <nIns>0</nIns>
+                    </readingSummary>
+                    <alignmentDetails>
+                        <alignEntry alignType="SUB">
+                            <target numPh="1" phSeq="AX">a</target>
+                            <wordSeg start_msec="191" end_msec="5620">
+                                <word>&lt;JUNK&gt;</word>
+                            </wordSeg>
+                        </alignEntry>
+                        <alignEntry alignType="DEL">
+                            <target numPh="4" phSeq="B EY B IY">baby</target>
+                        </alignEntry>
+                    </alignmentDetails>
+                </analysis>
+                <audioQuality id="(null)" status="0" vol="0.68">
+                    <comment bgpow="39" />
+                </audioQuality>
+            </AAResult>
+        </message>
+    </aaResult>
+</transactionLog>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactionLog>
+    <aaRequest>
+        <message serviceType="AARequest" transactionID="0000000000000001442347695071">
+            <validate apiVersion="SendFileClass_CS_v1.0.3" requester="LearnDirect" requesterID="Tok888yo_18" userID="User_JoséPauloT31" requesterInfo="Question_8432" requesterSeqNum="13235095" dateTimeStamp="2015-09-15T13:08:15.079-07:00" hashToken="8fd197abfe86fe9ace3d4f88d7bae1e4" />
+            <audio type="ogg" save="True" />
+            <AARequest AAReqID="0000000000000001442347695071">
+                <analysis analysisID="0000000000000001442347695071" analysisType="ReadingFluency" pinpoint="TRUE">
+                    <text>a bag</text>
+                </analysis>
+                <analysis analysisID="01" analysisType="ReadingFluency" pinpoint="TRUE">
+                    <text>bag</text>
+                </analysis>
+            </AARequest>
+        </message>
+    </aaRequest>
+    <aaResult>
+        <message transactionID="0000000000000001442347695071">
+            <validate apiVersion="SendFileClass_CS_v1.0.3" requester="LearnDirect" requesterID="Tok888yo_18" userID="User_JoséPauloT31" requesterInfo="Question_8432" requesterSeqNum="13235095" dateTimeStamp="2015-09-15T13:08:15.079-07:00" hashToken="8fd197abfe86fe9ace3d4f88d7bae1e4" serverID="Speechservices_stressTest:8084" serverType="localhost:11001" />
+            <referenceID value="EC3/LearnDirect-Tok888yo_18/User_Jos%C3%A9PauloT31/2015-09-15/Question_8432-20-05-37-016.ogg" />
+            <AAResult version="3.2.120" AAReqID="0000000000000001442347695071">
+                <analysis analysisID="0000000000000001442347695071" analysisType="ReadingFluency" pinpoint="TRUE">
+                    <SRHyp />
+                    <score>0.0</score>
+                    <readingSummary>
+                        <targetText>a bag</targetText>
+                        <markedText>
+                            <font style="background-color:red">a bag</font>
+                        </markedText>
+                        <speakingTime>3840</speakingTime>
+                        <nRef>2</nRef>
+                        <nHyp>1</nHyp>
+                        <nCorr>0</nCorr>
+                        <nErr>2</nErr>
+                        <nSub>1</nSub>
+                        <nDel>1</nDel>
+                        <nIns>0</nIns>
+                    </readingSummary>
+                    <alignmentDetails>
+                        <alignEntry alignType="SUB">
+                            <target numPh="1" phSeq="AX">a</target>
+                            <wordSeg start_msec="161" end_msec="4000">
+                                <word>&lt;JUNK&gt;</word>
+                            </wordSeg>
+                        </alignEntry>
+                        <alignEntry alignType="DEL">
+                            <target numPh="3" phSeq="B AE G">bag</target>
+                        </alignEntry>
+                    </alignmentDetails>
+                </analysis>
+                <analysis analysisID="01" analysisType="ReadingFluency" pinpoint="TRUE">
+                    <SRHyp />
+                    <score>0.0</score>
+                    <readingSummary>
+                        <targetText>bag</targetText>
+                        <markedText>
+                            <font style="background-color:red">bag</font>
+                        </markedText>
+                        <speakingTime>3840</speakingTime>
+                        <nRef>1</nRef>
+                        <nHyp>1</nHyp>
+                        <nCorr>0</nCorr>
+                        <nErr>1</nErr>
+                        <nSub>1</nSub>
+                        <nDel>0</nDel>
+                        <nIns>0</nIns>
+                    </readingSummary>
+                    <alignmentDetails>
+                        <alignEntry alignType="SUB">
+                            <target numPh="3" phSeq="B AE G">bag</target>
+                            <wordSeg start_msec="161" end_msec="4000">
+                                <word>&lt;JUNK&gt;</word>
+                            </wordSeg>
+                        </alignEntry>
+                    </alignmentDetails>
+                </analysis>
+                <audioQuality id="(null)" status="0" vol="0.54">
+                    <comment bgpow="44" />
+                </audioQuality>
+            </AAResult>
+        </message>
+    </aaResult>
+</transactionLog>
+
