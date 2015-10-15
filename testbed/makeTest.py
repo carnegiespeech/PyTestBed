@@ -12,24 +12,27 @@ import os.path
 import random
 
 
-requester = ""#Obtain from Carnegie Speech
-secretKey =""#Obtain from Carnegie Speech
+requester = "" #Obtain from Carnegie Speech
+secretKey ="" #Obtain from Carnegie Speech
 
-requesterID = "" #Must defined by user
-userID= ""#Must defined by user
-requesterInfo=""#Must defined by user
+requesterID = "Gary" #Must defined by user
+userID= "Gary" #Must defined by user
+requesterInfo="SessionTest"#Must defined by user
 
 listFile = '../fileidlist.txt'#Must be prepared before run the scripts
 fid = open(listFile)
 lines = fid.readlines()
 fid.close()
 
-scene = 'use_wden'
-audiotype = '.ogg'
+#scene = 'use_wden'
+audiotype = '.wav'
 xmlFolder = '../AARequest'  #Must be prepared before run the scripts
-audioFolder = '../Audio/'+scene #Must be prepared before run the scripts
+#audioFolder = '../Audio/'+scene #Must be prepared before run the scripts
+audioFolder = '../Audio'        #Must be prepared before run the scripts
 
-resultFolder = '../AAResult/'+scene
+# resultFolder = '../AAResult/'+scene
+resultFolder = '../AAResult'
+
 if not os.path.exists('../AAResult'):
     os.mkdir('../AAResult')
 if not os.path.exists(resultFolder):

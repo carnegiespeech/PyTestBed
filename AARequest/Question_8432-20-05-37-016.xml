@@ -1,9 +1,0 @@
-<AARequest AAReqID="0000000000000001442347695071">
-	<analysis analysisID="0000000000000001442347695071" analysisType="ReadingFluency" pinpoint="TRUE">
-		<text>a bag</text>
-	</analysis>
-	<analysis analysisID="01" analysisType="ReadingFluency" pinpoint="TRUE">
-		<text>bag</text>
-	</analysis>
-</AARequest>
-

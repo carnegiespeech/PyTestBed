@@ -98,7 +98,8 @@ def parseAAResult(resFile):
      
    
     
-def getPhCount(resFile):
+def getPhCount(resFile,PHONEME_AVG):
+
     tree = ET.parse(resFile)
     root = tree.getroot()
     
@@ -109,7 +110,11 @@ def getPhCount(resFile):
     phoneme_count = 0
     for phoneme  in root.iter('phoneme'):
         phoneme_count = phoneme_count+1
+        name = phoneme.get('name')
+        if name not in PHONEME_AVG:
+            PHONEME_AVG[name] = []
         status = phoneme.get('status')
+        PHONEME_AVG[name].append(status);
         if status == 'ok':
             ok_count = ok_count+1
         elif status =='soso':
