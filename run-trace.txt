@@ -1,0 +1,54 @@
+--------------------------Trace
+bash-3.2$ python makeTest.py 
+../AAResult/hedgehog.xml
+2979
+0
+../AAResult/hedgehog.xml
+../AAResult/audfile.xml
+16905
+0
+../AAResult/audfile.xml
+bash-3.2$ python collectResultSummary.py 
+2 files in total
+../AAResult/hedgehog.xml
+../AAResult/audfile.xml
+There are [6, 57] recognized phonemes
+OK Phonemes: [5, 37]
+SOSO phonemes: [0, 12]
+BAD phonemes: [1, 8]
+UNKNOWN phonemes: [0, 0]
+There are {'IY': ['ok', 'soso'], 'DH': ['soso', 'ok'], 'HH': ['bad', 'ok', 'soso'], 'JH': ['ok'], 'DX': ['soso'], 'D': ['ok', 'ok'], 'AA': ['ok', 'soso'], 'IX': ['ok'], 'B': ['ok', 'bad'], 'EH': ['ok', 'ok', 'bad', 'ok'], 'G': ['ok'], 'F': ['soso', 'ok', 'bad'], 'M': ['ok', 'ok'], 'L': ['ok', 'ok', 'ok'], 'AO': ['soso'], 'N': ['ok', 'ok'], 'S': ['soso', 'ok', 'ok', 'soso', 'ok'], 'R': ['ok', 'soso', 'bad'], 'EY': ['ok'], 'T': ['ok', 'bad'], 'W': ['ok'], 'Y': ['ok'], 'AX': ['bad', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok'], 'Z': ['ok'], 'ER': ['soso', 'ok'], 'UW': ['soso'], 'OW': ['bad']}
+  Average correct for Phoneme IY=0.50 poor
+  Average correct for Phoneme DH=0.50 poor
+  Average correct for Phoneme HH=0.33 poor
+  Average correct for Phoneme JH=1.00 Good
+  Average correct for Phoneme DX=0.00 poor
+  Average correct for Phoneme D=1.00 Good
+  Average correct for Phoneme AA=0.50 poor
+  Average correct for Phoneme IX=1.00 Good
+  Average correct for Phoneme B=0.50 poor
+  Average correct for Phoneme EH=0.75 Good
+  Average correct for Phoneme G=1.00 Good
+  Average correct for Phoneme F=0.33 poor
+  Average correct for Phoneme M=1.00 Good
+  Average correct for Phoneme L=1.00 Good
+  Average correct for Phoneme AO=0.00 poor
+  Average correct for Phoneme N=1.00 Good
+  Average correct for Phoneme S=0.60 poor
+  Average correct for Phoneme R=0.33 poor
+  Average correct for Phoneme EY=1.00 Good
+  Average correct for Phoneme T=0.50 poor
+  Average correct for Phoneme W=1.00 Good
+  Average correct for Phoneme Y=1.00 Good
+  Average correct for Phoneme AX=0.86 Good
+  Average correct for Phoneme Z=1.00 Good
+  Average correct for Phoneme ER=0.50 poor
+  Average correct for Phoneme UW=0.00 poor
+  Average correct for Phoneme OW=0.00 poor
+There are [1, 14] reference words
+Hyp Words: [1, 14]
+Corret Words: [1, 14]
+Error Words: [0, 0]
+Deletions: [0, 0]
+Insertions: [0, 0]
+bash-3.2$ 
